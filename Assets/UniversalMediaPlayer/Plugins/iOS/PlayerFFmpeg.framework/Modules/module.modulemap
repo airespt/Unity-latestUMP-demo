@@ -1,0 +1,6 @@
+framework module PlayerFFmpeg {
+  umbrella header "PlayerFFmpeg.h"
+
+  export *
+  module * { export * }
+}

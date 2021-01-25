@@ -1,0 +1,40 @@
+#import <UIKit/UIKit.h>
+
+//! Project version number for IJKMediaFramework.
+FOUNDATION_EXPORT double MediaFrameworkVersionNumber;
+
+//! Project version string for IJKMediaFramework.
+FOUNDATION_EXPORT const unsigned char MediaFrameworkVersionString[];
+
+// In this header, you should import all the public headers of your framework using statements like #import <IJKMediaFrameworkWithSSL/PublicHeader.h>
+#import <PlayerFFmpeg/MediaPlayback.h>
+#import <PlayerFFmpeg/MMPMoviePlayerController.h>
+#import <PlayerFFmpeg/FFOptions.h>
+#import <PlayerFFmpeg/FFMoviePlayerController.h>
+#import <PlayerFFmpeg/AVMoviePlayerController.h>
+#import <PlayerFFmpeg/MediaModule.h>
+#import <PlayerFFmpeg/MediaPlayer.h>
+#import <PlayerFFmpeg/NotificationManager.h>
+#import <PlayerFFmpeg/KVOController.h>
+#import <PlayerFFmpeg/SDLGLViewProtocol.h>
+
+// backward compatible for old names
+#define MediaPlaybackIsPreparedToPlayDidChangeNotification MMPMediaPlaybackIsPreparedToPlayDidChangeNotification
+#define MoviePlayerLoadStateDidChangeNotification MMPMoviePlayerLoadStateDidChangeNotification
+#define MoviePlayerPlaybackDidFinishNotification MMPMoviePlayerPlaybackDidFinishNotification
+#define MoviePlayerPlaybackDidFinishReasonUserInfoKey MMPMoviePlayerPlaybackDidFinishReasonUserInfoKey
+#define MoviePlayerPlaybackStateDidChangeNotification MMPMoviePlayerPlaybackStateDidChangeNotification
+#define MoviePlayerIsAirPlayVideoActiveDidChangeNotification MMPMoviePlayerIsAirPlayVideoActiveDidChangeNotification
+#define MoviePlayerVideoDecoderOpenNotification MMPMoviePlayerVideoDecoderOpenNotification
+#define MoviePlayerFirstVideoFrameRenderedNotification MMPMoviePlayerFirstVideoFrameRenderedNotification
+#define MoviePlayerFirstAudioFrameRenderedNotification MMPMoviePlayerFirstAudioFrameRenderedNotification
+#define MoviePlayerFirstAudioFrameDecodedNotification MMPMoviePlayerFirstAudioFrameDecodedNotification
+#define MoviePlayerFirstVideoFrameDecodedNotification MMPMoviePlayerFirstVideoFrameDecodedNotification
+#define MoviePlayerOpenInputNotification MMPMoviePlayerOpenInputNotification
+#define MoviePlayerFindStreamInfoNotification MMPMoviePlayerFindStreamInfoNotification
+#define MoviePlayerComponentOpenNotification MMPMoviePlayerComponentOpenNotification
+
+#define MoviePlayerAccurateSeekCompleteNotification MMPMoviePlayerAccurateSeekCompleteNotification
+#define MoviePlayerSeekAudioStartNotification MMPMoviePlayerSeekAudioStartNotification
+#define MoviePlayerSeekVideoStartNotification MMPMoviePlayerSeekVideoStartNotification
+
