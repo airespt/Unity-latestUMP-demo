@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -976953855, guid: 7d5cee70dc199e04dba8f536a34bfc94, type: 3}
+  m_Name: UMPSettings
+  m_EditorClassIdentifier: 
+  _assetPath: Assets/UniversalMediaPlayer
+  _useAudioSource: 0
+  _useExternalLibraries: 1
+  _librariesPath: /usr/lib/x86_64-linux-gnu/
+  _playersAndroid: 2
+  _playersIPhone: 2
+  _androidExportedPaths: []
+  _youtubeDecryptFunction: \bc\s*&&\s*d\.set\([^,]+\s*,[^(]*\(([a-zA-Z0-9$]+)\(

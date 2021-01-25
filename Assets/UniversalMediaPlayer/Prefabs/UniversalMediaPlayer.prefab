@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &129894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 472386}
+  - component: {fileID: 11420564}
+  m_Layer: 0
+  m_Name: UniversalMediaPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &472386
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11420564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bad016bb70440e43a0a4da64cfad6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _renderingObjects: []
+  _path: 
+  _autoPlay: 0
+  _loop: 0
+  _loopSmooth: 0
+  _mute: 0
+  _useAdvanced: 0
+  _useFixedSize: 0
+  _fixedVideoWidth: -1
+  _fixedVideoHeight: -1
+  _chosenPlatform: 0
+  _volume: 50
+  _playRate: 1
+  _position: 0
+  _logDetail: 0
+  _lastEventMsg: 
+  _desktopAudioOutputs: []
+  _desktopHardwareDecoding: 0
+  _desktopFlipVertically: 1
+  _desktopVideoBufferSize: 0
+  _desktopOutputToFile: 0
+  _desktopDisplayOutput: 0
+  _desktopOutputFilePath: 
+  _desktopRtspOverTcp: 0
+  _desktopFileCaching: 300
+  _desktopLiveCaching: 300
+  _desktopDiskCaching: 300
+  _desktopNetworkCaching: 300
+  _androidPlayerType: 2
+  _androidHardwareAcceleration: -1
+  _androidOpenGLDecoding: 0
+  _androidVideoChroma: 1
+  _androidPlayInBackground: 0
+  _androidRtspOverTcp: 0
+  _androidNetworkCaching: 300
+  _iphonePlayerType: 2
+  _iphoneFlipVertically: 1
+  _iphoneVideoToolbox: 1
+  _iphoneVideoToolboxMaxFrameWidth: 4096
+  _iphoneVideoToolboxAsync: 0
+  _iphoneVideoToolboxWaitAsync: 1
+  _iphonePlayInBackground: 0
+  _iphoneRtspOverTcp: 0
+  _iphonePacketBuffering: 1
+  _iphoneMaxBufferSize: 15728640
+  _iphoneMinFrames: 50000
+  _iphoneInfbuf: 0
+  _iphoneFramedrop: 0
+  _iphoneMaxFps: 31
+  _pathPreparedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _openingEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _bufferingEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _imageReadyEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _preparedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _playingEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _pausedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _stoppedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _endReachedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _encounteredErrorEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _timeChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _positionChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  _snapshotTakenEvent:
+    m_PersistentCalls:
+      m_Calls: []
